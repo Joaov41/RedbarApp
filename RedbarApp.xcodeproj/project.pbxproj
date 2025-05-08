@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C136AF8A2DCCB2FC0099BEDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C136AF702DCCB2FB0099BEDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C136AF772DCCB2FB0099BEDC;
+			remoteInfo = RedbarApp;
+		};
+		C136AF942DCCB2FC0099BEDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C136AF702DCCB2FB0099BEDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C136AF772DCCB2FB0099BEDC;
+			remoteInfo = RedbarApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C136AF782DCCB2FB0099BEDC /* RedbarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedbarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C136AF892DCCB2FC0099BEDC /* RedbarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedbarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C136AF932DCCB2FC0099BEDC /* RedbarAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedbarAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C136AF7A2DCCB2FB0099BEDC /* RedbarApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RedbarApp;
+			sourceTree = "<group>";
+		};
+		C136AF8C2DCCB2FC0099BEDC /* RedbarAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RedbarAppTests;
+			sourceTree = "<group>";
+		};
+		C136AF962DCCB2FC0099BEDC /* RedbarAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RedbarAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C136AF752DCCB2FB0099BEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C136AF862DCCB2FC0099BEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C136AF902DCCB2FC0099BEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C136AF6F2DCCB2FB0099BEDC = {
+			isa = PBXGroup;
+			children = (
+				C136AF7A2DCCB2FB0099BEDC /* RedbarApp */,
+				C136AF8C2DCCB2FC0099BEDC /* RedbarAppTests */,
+				C136AF962DCCB2FC0099BEDC /* RedbarAppUITests */,
+				C136AF792DCCB2FB0099BEDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C136AF792DCCB2FB0099BEDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C136AF782DCCB2FB0099BEDC /* RedbarApp.app */,
+				C136AF892DCCB2FC0099BEDC /* RedbarAppTests.xctest */,
+				C136AF932DCCB2FC0099BEDC /* RedbarAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C136AF772DCCB2FB0099BEDC /* RedbarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C136AF9D2DCCB2FC0099BEDC /* Build configuration list for PBXNativeTarget "RedbarApp" */;
+			buildPhases = (
+				C136AF742DCCB2FB0099BEDC /* Sources */,
+				C136AF752DCCB2FB0099BEDC /* Frameworks */,
+				C136AF762DCCB2FB0099BEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C136AF7A2DCCB2FB0099BEDC /* RedbarApp */,
+			);
+			name = RedbarApp;
+			packageProductDependencies = (
+			);
+			productName = RedbarApp;
+			productReference = C136AF782DCCB2FB0099BEDC /* RedbarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C136AF882DCCB2FC0099BEDC /* RedbarAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C136AFA02DCCB2FC0099BEDC /* Build configuration list for PBXNativeTarget "RedbarAppTests" */;
+			buildPhases = (
+				C136AF852DCCB2FC0099BEDC /* Sources */,
+				C136AF862DCCB2FC0099BEDC /* Frameworks */,
+				C136AF872DCCB2FC0099BEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C136AF8B2DCCB2FC0099BEDC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C136AF8C2DCCB2FC0099BEDC /* RedbarAppTests */,
+			);
+			name = RedbarAppTests;
+			packageProductDependencies = (
+			);
+			productName = RedbarAppTests;
+			productReference = C136AF892DCCB2FC0099BEDC /* RedbarAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C136AF922DCCB2FC0099BEDC /* RedbarAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C136AFA32DCCB2FC0099BEDC /* Build configuration list for PBXNativeTarget "RedbarAppUITests" */;
+			buildPhases = (
+				C136AF8F2DCCB2FC0099BEDC /* Sources */,
+				C136AF902DCCB2FC0099BEDC /* Frameworks */,
+				C136AF912DCCB2FC0099BEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C136AF952DCCB2FC0099BEDC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C136AF962DCCB2FC0099BEDC /* RedbarAppUITests */,
+			);
+			name = RedbarAppUITests;
+			packageProductDependencies = (
+			);
+			productName = RedbarAppUITests;
+			productReference = C136AF932DCCB2FC0099BEDC /* RedbarAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C136AF702DCCB2FB0099BEDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C136AF772DCCB2FB0099BEDC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C136AF882DCCB2FC0099BEDC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C136AF772DCCB2FB0099BEDC;
+					};
+					C136AF922DCCB2FC0099BEDC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C136AF772DCCB2FB0099BEDC;
+					};
+				};
+			};
+			buildConfigurationList = C136AF732DCCB2FB0099BEDC /* Build configuration list for PBXProject "RedbarApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C136AF6F2DCCB2FB0099BEDC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C136AF792DCCB2FB0099BEDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C136AF772DCCB2FB0099BEDC /* RedbarApp */,
+				C136AF882DCCB2FC0099BEDC /* RedbarAppTests */,
+				C136AF922DCCB2FC0099BEDC /* RedbarAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C136AF762DCCB2FB0099BEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C136AF872DCCB2FC0099BEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C136AF912DCCB2FC0099BEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C136AF742DCCB2FB0099BEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C136AF852DCCB2FC0099BEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C136AF8F2DCCB2FC0099BEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C136AF8B2DCCB2FC0099BEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C136AF772DCCB2FB0099BEDC /* RedbarApp */;
+			targetProxy = C136AF8A2DCCB2FC0099BEDC /* PBXContainerItemProxy */;
+		};
+		C136AF952DCCB2FC0099BEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C136AF772DCCB2FB0099BEDC /* RedbarApp */;
+			targetProxy = C136AF942DCCB2FC0099BEDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C136AF9B2DCCB2FC0099BEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C136AF9C2DCCB2FC0099BEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C136AF9E2DCCB2FC0099BEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RedbarApp/RedbarApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RedbarApp/Preview Content\"";
+				DEVELOPMENT_TEAM = HNG8WV554B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.RedbarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C136AF9F2DCCB2FC0099BEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RedbarApp/RedbarApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RedbarApp/Preview Content\"";
+				DEVELOPMENT_TEAM = HNG8WV554B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.RedbarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C136AFA12DCCB2FC0099BEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNG8WV554B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.RedbarAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedbarApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RedbarApp";
+			};
+			name = Debug;
+		};
+		C136AFA22DCCB2FC0099BEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNG8WV554B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.RedbarAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedbarApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RedbarApp";
+			};
+			name = Release;
+		};
+		C136AFA42DCCB2FC0099BEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNG8WV554B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.RedbarAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RedbarApp;
+			};
+			name = Debug;
+		};
+		C136AFA52DCCB2FC0099BEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNG8WV554B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.RedbarAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RedbarApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C136AF732DCCB2FB0099BEDC /* Build configuration list for PBXProject "RedbarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C136AF9B2DCCB2FC0099BEDC /* Debug */,
+				C136AF9C2DCCB2FC0099BEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C136AF9D2DCCB2FC0099BEDC /* Build configuration list for PBXNativeTarget "RedbarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C136AF9E2DCCB2FC0099BEDC /* Debug */,
+				C136AF9F2DCCB2FC0099BEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C136AFA02DCCB2FC0099BEDC /* Build configuration list for PBXNativeTarget "RedbarAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C136AFA12DCCB2FC0099BEDC /* Debug */,
+				C136AFA22DCCB2FC0099BEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C136AFA32DCCB2FC0099BEDC /* Build configuration list for PBXNativeTarget "RedbarAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C136AFA42DCCB2FC0099BEDC /* Debug */,
+				C136AFA52DCCB2FC0099BEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C136AF702DCCB2FB0099BEDC /* Project object */;
+}
