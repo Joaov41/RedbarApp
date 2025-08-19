@@ -1,10 +1,19 @@
 # RedbarApp 🔴
 
-A sleek macOS menu bar application for browsing Reddit with AI-powered text-to-speech functionality. Stay updated with your favorite subreddits without leaving your workflow.
+A macOS menu bar application for browsing Reddit. Features comments summarization and Q&A. Open ai powered text-to-speech functionality as well as local TTS.  Stay updated with your favorite subreddits without leaving your workflow.
 
 <p align="center">
   <img src="ewe.png" alt="RedbarApp Logo" width="200"/>
 </p>
+
+
+![CleanShot 2025-08-19 at 19 18 34@2x](https://github.com/user-attachments/assets/f3c095ce-a4e2-490d-9598-c299d0a24f8d)
+
+![CleanShot 2025-08-19 at 19 18 23@2x](https://github.com/user-attachments/assets/8ee631d2-7869-42f0-b431-580466a272a9)
+
+![CleanShot 2025-08-19 at 19 18 00@2x](https://github.com/user-attachments/assets/f2678af0-1c7d-44cf-acd8-4992f1c25ef1)
+
+![CleanShot 2025-08-19 at 19 17 39@2x](https://github.com/user-attachments/assets/1491aee8-fa1a-4d3e-b3d5-92cd16afed9f)
 
 ## ✨ Features
 
@@ -13,7 +22,7 @@ A sleek macOS menu bar application for browsing Reddit with AI-powered text-to-s
 - **Multiple Voices**: Choose from 6 different voice options (Alloy, Echo, Fable, Onyx, Nova, Shimmer)
 - **Smart Chunking**: Intelligent text processing for immediate playback with seamless transitions
 - **Performance Optimized**: Concurrent processing and adaptive performance based on network conditions
-- **Fallback Support**: Local macOS TTS as backup when needed
+- **Fallback Support**: Local macOS TTS as s free option 
 
 ### 📱 Menu Bar Integration
 - **Lightweight**: Unobtrusive menu bar presence that stays out of your way
@@ -27,7 +36,7 @@ A sleek macOS menu bar application for browsing Reddit with AI-powered text-to-s
 - **Kingfisher Integration**: Efficient image loading and caching
 
 ### 🔐 Secure Authentication
-- **OAuth Integration**: Safe Reddit authentication using OAuth 2.0
+- **OAuth Integration**: Safe Reddit authentication using OAuth 2.0 with user's own Reddit credentials
 - **Keychain Storage**: Secure credential storage using macOS Keychain
 - **API Key Management**: Secure storage for OpenAI and other API keys
 - **Privacy First**: No credentials stored in plain text
@@ -38,7 +47,7 @@ A sleek macOS menu bar application for browsing Reddit with AI-powered text-to-s
 - **Smart Pre-loading**: Anticipates user needs for smoother experience
 - **Concurrent Processing**: Multiple simultaneous operations for speed
 
-### 🎨 Beautiful UI
+### 🎨 Modern Glass UI
 - **Liquid Glass Effects**: Modern, translucent background effects
 - **Dark Mode Support**: Seamless integration with macOS appearance
 - **Responsive Design**: Adapts to different screen sizes and resolutions
@@ -57,8 +66,7 @@ A sleek macOS menu bar application for browsing Reddit with AI-powered text-to-s
 ## 🚀 Getting Started
 
 ### Prerequisites
-- macOS 12.0 or later
-- Xcode 14.0 or later
+- macOS Tahoe beta
 - Reddit application credentials
 - OpenAI API key
 
